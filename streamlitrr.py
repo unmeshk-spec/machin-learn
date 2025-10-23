@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1xrylnjkx9YnK9Wa7Jb6giO0aa1jIFz1n
 """
 
-!pip install streamlit appdirs
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile streamlitapp.py
@@ -19,9 +19,5 @@ Original file is located at
 # st.badge("hitori",color="red")
 
 
-!npm install -g localtunnel
 
-!curl ipv4.icanhazip.com
-
-! streamlit run streamlitapp.py & >./logs.txt & npx localtunnel --port 8501 & curl ipv4.icanhazip.com
 
